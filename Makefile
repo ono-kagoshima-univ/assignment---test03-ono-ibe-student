@@ -1,7 +1,7 @@
 all: clean test
 
 appTest: tests.c student.c
-	gcc tests.c -o appTest
+	g++ tests.c -o appTest
 
 test: appTest
 	./appTest
