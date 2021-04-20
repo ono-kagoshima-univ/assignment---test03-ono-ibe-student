@@ -7,6 +7,6 @@ int add(int a, int b){
 
 /* Exercise : 関数mulを実装せよ */
 int mul(int a, int b){
-  return a * b; // TODO: fix
+  return a * b + b; // TODO: fix
   
 }
