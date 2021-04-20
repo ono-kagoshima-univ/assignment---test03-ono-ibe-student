@@ -1,12 +1,10 @@
 all: clean test
 
-appTests: tests.c student.c
-  gcc tests.c -o appTest
- 
-test: appTests
-  ./appTest
-  
+appTest: tests.c student.c
+	g++ tests.c -o appTest
+
+test: appTest
+	./appTest
+
 clean:
-  rm -f appTest
-  
-  
+	rm -f appTest
