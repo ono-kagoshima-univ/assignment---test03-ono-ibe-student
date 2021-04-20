@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Ex0",
+      "setup": "make",
+      "run": "./appTest",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
