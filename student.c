@@ -8,4 +8,5 @@ int add(int a, int b){
 /* Exercise : 関数mulを実装せよ */
 int mul(int a, int b){
   return 0; // TODO: fix
+  
 }
